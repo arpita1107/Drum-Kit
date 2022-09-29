@@ -16,6 +16,7 @@ document.addEventListener("keydown", function(event){
   buttonanimation(event.key);
 });
 
+// function to play audio
 function makesound(key){
   switch (key) {
     case "w":
